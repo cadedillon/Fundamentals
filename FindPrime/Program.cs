@@ -4,8 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Fundamentals
+namespace FindPrime
 {
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine(FindPrime.IsPrime(7));
+        }
+    }
+
     public class FindPrime
     {
         public static bool IsPrime(int a)

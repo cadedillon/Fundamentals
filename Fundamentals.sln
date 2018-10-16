@@ -9,11 +9,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegerSwap", "IntegerSwap\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegerSwapTests", "IntegerSwapTests\IntegerSwapTests.csproj", "{8E857337-702A-4780-B129-6FAE5BD1697C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FundamentalsTests", "FundamentalsTests\FundamentalsTests.csproj", "{B378E087-0329-4FC1-A6E5-37674A787E8C}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MorseDictionary", "MorseDictionary\MorseDictionary.csproj", "{30B60D2A-7F53-44DF-A6DD-6D05576D0F72}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MorseDictionaryTests", "MorseDictionaryTests\MorseDictionaryTests.csproj", "{C0842D5A-06CD-4FC9-8978-EB7B5E9A5CF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindPrime", "FindPrime\FindPrime.csproj", "{86036D75-3D48-458B-8AB1-1F0D8B146019}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindPrimeTests", "FindPrimeTests\FindPrimeTests.csproj", "{7C35C021-4D47-4125-B441-3A642F0B3086}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,10 +35,6 @@ Global
 		{8E857337-702A-4780-B129-6FAE5BD1697C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E857337-702A-4780-B129-6FAE5BD1697C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E857337-702A-4780-B129-6FAE5BD1697C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B378E087-0329-4FC1-A6E5-37674A787E8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B378E087-0329-4FC1-A6E5-37674A787E8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B378E087-0329-4FC1-A6E5-37674A787E8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B378E087-0329-4FC1-A6E5-37674A787E8C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{30B60D2A-7F53-44DF-A6DD-6D05576D0F72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{30B60D2A-7F53-44DF-A6DD-6D05576D0F72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30B60D2A-7F53-44DF-A6DD-6D05576D0F72}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -45,6 +43,14 @@ Global
 		{C0842D5A-06CD-4FC9-8978-EB7B5E9A5CF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0842D5A-06CD-4FC9-8978-EB7B5E9A5CF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0842D5A-06CD-4FC9-8978-EB7B5E9A5CF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86036D75-3D48-458B-8AB1-1F0D8B146019}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86036D75-3D48-458B-8AB1-1F0D8B146019}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86036D75-3D48-458B-8AB1-1F0D8B146019}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86036D75-3D48-458B-8AB1-1F0D8B146019}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C35C021-4D47-4125-B441-3A642F0B3086}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C35C021-4D47-4125-B441-3A642F0B3086}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C35C021-4D47-4125-B441-3A642F0B3086}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C35C021-4D47-4125-B441-3A642F0B3086}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{352F337F-DFE1-4A3A-802A-1929DD2C344F}</ProjectGuid>
+    <ProjectGuid>{86036D75-3D48-458B-8AB1-1F0D8B146019}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Fundamentals</RootNamespace>
-    <AssemblyName>Fundamentals</AssemblyName>
+    <RootNamespace>FindPrime</RootNamespace>
+    <AssemblyName>FindPrime</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Fundamentals.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
